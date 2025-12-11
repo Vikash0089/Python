@@ -1,1 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Product Manager</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
 
+<div class="container">
+    <h1>Product Manager</h1>
+
+    <div class="form-box">
+        <input type="text" id="name" placeholder="Product Name">
+        <input type="number" id="price" placeholder="Price">
+        <button onclick="addProduct()">Add Product</button>
+    </div>
+
+    <h2>Products</h2>
+    <table id="productTable">
+        <tr>
+            <th>ID</th><th>Name</th><th>Price</th><th>Action</th>
+        </tr>
+    </table>
+</div>
+
+<script src="/static/script.js"></script>
+</body>
+</html>
